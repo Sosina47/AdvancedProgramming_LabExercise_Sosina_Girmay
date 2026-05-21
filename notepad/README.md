@@ -1,18 +1,76 @@
-## Getting Started
+# 🧠 Concepts & Features Implemented
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project was built not only as a notepad application, but also as a practical exercise in Java desktop application development using JavaFX and JDBC.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+# 🚀 Features Implemented
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📝 Note Management
+- Create new notes
+- Save notes to database
+- Load notes from database
+- Delete notes
+- Clear editor using a “New” button
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📋 Sidebar Note List
+Implemented using JavaFX `ListView`.
 
-## Dependency Management
+Features:
+- Displays saved notes
+- Select notes from sidebar
+- Automatically loads selected note into editor
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 🌙 Dark Mode UI
+Implemented using JavaFX CSS.
+
+Styled:
+- Buttons
+- TextArea
+- ListView
+- Selected items
+- Hover effects
+
+---
+
+## 🗄️ Database Integration
+Connected Java application to MySQL/MariaDB using JDBC.
+
+Implemented SQL operations:
+- `INSERT`
+- `SELECT`
+- `DELETE`
+
+---
+
+# ☕ Java Concepts Used
+
+## 🖥️ JavaFX GUI Development
+Used JavaFX to create the desktop interface.
+
+Components used:
+- `Stage`
+- `Scene`
+- `Button`
+- `TextArea`
+- `ListView`
+- `HBox`
+- `BorderPane`
+
+---
+
+## 🎯 Event-Driven Programming
+The application reacts to user actions using event handlers.
+
+Examples:
+- Button clicks
+- List item selection
+
+Methods used:
+```java
+setOnAction()
+addListener()
